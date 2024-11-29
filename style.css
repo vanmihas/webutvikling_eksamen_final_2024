@@ -1,0 +1,990 @@
+
+
+@media(max-width:768px){
+    .pnmmm{
+        display: none;
+    }
+} /* dette er tok fra microsoft copilot AI*/
+
+*{
+box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+#searchbar{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    margin-right: 0%;
+}
+#searchbutton{
+    color:rgb(0, 0, 0);
+    background-color:white;
+    padding: 10px 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+#banner{
+    display: flex;
+    flex-wrap:wrap;
+    width: 80%;
+    height: 70%;
+    background-color: #0000003b;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    align-items: center;
+    text-align: right;
+    justify-items: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+#p{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 1rem;
+   
+}
+#pl{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: flex-start;
+    font-size: 20px
+
+}
+.productlistknapp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 110px;
+    height: 70px;
+    margin: 10px;
+    border: 1px solid;
+  
+}
+
+.image, .immage{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    object-fit: cover ;
+
+}
+
+.pn{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.pp{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 0;
+    margin-left: 30px;
+    margin-top: 0;
+    font-weight: 400
+
+}
+
+.kategori_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+.kategori_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.kategori_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.kategori_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.kategori_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.An{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.anmeldelsebox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+.anmeldelsebox img{
+        width: 100px;
+        height: auto;
+}
+
+
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    width: 100%; 
+    height: 2px; 
+    background-color: #ccc; 
+}
+
+
+
+
+.breadcrumb ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+
+.breadcrumb li:not(:last-child)::after{
+    display:inline;
+    margin: 0 0.5rem;
+    content: ">";
+}
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+footer ul{
+    list-style: none;  
+    padding: 0;
+    margin: 0;
+    gap: 0;
+   
+}
+footer li{
+    padding: 0.4rem;
+    margin-left: 0;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+#HKP{
+    display: flex;
+    flex-direction: row;
+}
+
+.pnm{
+    padding: 10px;
+    margin-left: 10px;
+}
+.pnt{
+    display: flex;
+    flex-direction: row;
+    gap: 97px;
+    padding: 1rem;
+    margin: 1rem ;
+    
+   
+}
+
+#shoppingbag h3{
+    margin-left: 40px;
+}
+#shoppingbag p{
+    margin-left: 40px;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    
+}
+#form label{
+    display: flex;
+    flex-direction: column;
+}
+#leveringsadresse{
+    font-weight: bold;
+}
+.sb{
+    border-color: rgba(0, 0, 0, 0.219);
+    padding: 20px;
+    margin: 0.1rem;
+    width: 400px;
+    gap: 0.1rem;
+}
+.sbg{
+    border-color: rgba(0, 0, 0, 0.219);
+    padding: 20px;
+    margin: 0.1rem;
+    width: 400px;
+    gap: 0.1rem;
+}
+#lagrebutton{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 50px;
+    width: 80px;
+    border-color: #ccc;
+    font-size: small;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+#avbrytbuton{
+    text-decoration: underline;
+    border-style: none;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+#betaling{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bform{
+    display: flex;
+    flex-direction: column;
+}
+.kb{
+    display: flex;
+    flex-direction: column;
+    
+}
+#blackbut{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 50px;
+    width: 90px;
+    border-color: #ccc;
+    font-size: small;
+    padding: 10px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.pd{
+    padding: 10px;
+    padding-top: 0;
+}
+.ts{
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    
+}
+.lp{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 1rem;
+    gap: 1rem;
+}
+.borderlevering{
+    border: #ccc solid 2px;
+    width: 500px;
+    height: 70px;
+    padding: 10px;
+    
+}
+.leveringform{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 0.1rem;
+    flex-direction: column;
+}
+#fontpris{
+    font-weight: 900;
+    font-size: x-large;
+}
+ 
+
+@media (min-width:650px) and (max-width:768px){
+#banner{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1200px;
+    width: 90%;
+    height: 70%;
+    background-image: url("https://cdn.pixabay.com/photo/2024/11/12/05/47/children-9191292_1280.png");
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    text-align: right;
+    justify-items: right;
+    font-size: medium;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    max-width: 100px;
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2023/11/08/07/24/gifts-8374060_1280.png");
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("https://cdn.pixabay.com/photo/2024/08/10/14/06/botanical-8959535_1280.png");
+    
+}
+.kategori_1{
+    
+    background-image: url("https://cdn.pixabay.com/photo/2022/02/18/18/53/breakfast-7021320_1280.jpg") ;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.kategori_2{
+   
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/08/03/50/family-2610205_1280.jpg");
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.kategori_3{
+    
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/13/49/christmas-baubles-1869989_1280.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.kategori_4{
+    
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.kategori_5{
+    
+    background-image: url('https://cdn.pixabay.com/photo/2019/02/02/18/03/cat-3971068_1280.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+#avbrytbuton{
+    text-decoration: none;
+    border-style: none;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-width: 950px;
+    background-image: url("https://cdn.pixabay.com/photo/2024/08/10/14/06/botanical-8959535_1280.png");
+}
+.productlistknapp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 110px;
+    height: 70px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+  
+}
+.anmeldelsebox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    font-weight: 600;
+    margin: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2024/08/10/14/06/botanical-8959535_1280.png");
+}
+
+
+footer{
+    background-image: url("https://cdn.pixabay.com/photo/2023/11/30/17/34/background-8422123_1280.png");
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.snarveier, .socialmediaicons{
+    display: flex;
+    flex-direction: row;
+}
+#kontakktinfo{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+    
+@media only screen and (min-width:769px) {
+
+.pnm{
+    display: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.logo{
+    font-size:larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+
+}
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+}
+footer{
+    padding: 10px;
+    margin: 10px;
+}
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+    padding: 1rem;
+    text-align: left;
+}
+
+.grid-footer article {
+    margin: 0;
+}
+
+.grid-footer ul {
+    list-style: none;
+    padding: 0.1rem;
+    margin: 0;
+}
+
+.grid-footer li {
+    margin-bottom: 10px;
+    padding: 0.1rem;
+    margin-left: 0;
+    display: flex;
+    gap: 0.1rem;
+
+}
+
+.grid-footer a {
+    text-decoration: none;
+    color: black;
+}
+.socialmediaicons{
+    display: flex;
+    flex-direction: row;
+}
+.snarveier li{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+
+
+#pl{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: flex-start;
+    font-size: 20px
+
+}
+
+
+
+
+.pn{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.pp{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 0;
+    margin-left: 30px;
+    margin-top: 0;
+    font-weight: 400
+
+}
+
+
+
+.kategori_1{
+    max-width: 386px;
+    height: 300px;
+    background-image: url("https://cdn.pixabay.com/photo/2019/10/22/13/43/man-4568761_1280.jpg") ;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.kategori_2{
+    width: 386px;
+    height: 300px;
+    background-image: url("https://cdn.pixabay.com/photo/2023/12/22/01/37/woman-8463055_1280.jpg");
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.kategori_3{
+    width: 386px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/27/12/45/woman-2178480_1280.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.kategori_4{
+    width: 864px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/01/08/28/bouquet-2563485_1280.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.kategori_5{
+    width: 300px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/11/09/36/whisky-8443155_1280.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#popprodukt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 1rem;
+   
+    
+}
+.image{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    object-fit: cover ;
+
+}
+.ts{
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    
+}
+.kat1{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 0.1rem;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
+.kat2{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 0.1rem;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
+.An{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.anmeldelsebox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    font-weight: 600;
+    margin: 10px;
+    gap: 1rem;
+    max-width: 289px;
+    
+}
+.images{
+    width: 100px;
+    height: 150px;
+}
+
+.image{
+    display: flex;
+    max-width: 700px;
+    height: 400px;
+    object-fit: cover ;
+
+}
+.pnmmm{
+    max-width: 440px;
+
+}
+.immage{
+    max-width:160px;
+    height: 200px;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+.pis{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.image3{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    row-gap: 0;
+    margin: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+#prodslide{
+    display: grid;
+    grid-template-areas: ".image .pnm" ;
+    max-width: 700px;
+    
+    
+}
+.pnmmm a{
+    color: #ccc;
+}
+
+
+
+#shoppingbag{
+    display: grid;
+    grid-template-areas: "aside figure";
+
+}
+.cnteo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    
+}
+.sbg{
+    border-color: rgba(0, 0, 0, 0.13);
+    padding: 20px;
+    margin: 0.1rem;
+    width: 950px;
+    gap: 0.1rem;
+}
+#lagrebutton{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 50px;
+    width: 100%;
+    max-width: 950px;
+    border-color: #ccc;
+    font-size: small;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+#avbrytbuton{
+    text-decoration: underline;
+    border-style: none;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 950px;
+}
+#blackbut{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 50px;
+    width: 80%;
+    max-width: 850px;
+    border-color: #ccc;
+    font-size: small;
+    padding: 1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+.pd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.1rem;
+    gap: 0.1rem;
+    
+}
+.pdd{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0.1rem;
+
+}
+.ligpil{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+    
+}
+.ligpil ul{
+    list-style: none;
+
+}
+.ligproducts details summary{
+    color: blueviolet;
+    text-decoration: underline;
+    
+}
+.ligproducts{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+}   

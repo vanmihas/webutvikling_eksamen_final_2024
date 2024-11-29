@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    
+    <link href="ikoner/css/fontawesome.css" rel="stylesheet" />
+    <link href="ikoner/css/brands.css" rel="stylesheet" />
+    <link href="ikoner/css/solid.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="css/style.css"> 
+    
+    <title>Kasse-side</title> 
+</head>
+<body>
+    <header>
+        <form>
+            <input id="searchbar" type="text" placeholder="søk her"  maxlength="50" />
+            <button id="searchbutton" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <nav>
+            <ul> 
+                <li><a  href="index.html">Hjem</a></li>
+                <li><a  href="index.html#vmpopprodukt" >Produkter</a></li>
+                <li><a  class="logo" href="index.html">Logo</a></li>
+                <li><a  href="index.html#vmpkategori">Kategorier</a></li>
+                <li><a  href="#kontakktinfo">Kontakt Oss</a></li>
+                <li><a  href='#'><i class="fa-regular fa-user"></i></a></li>
+                <li><a  href="#"><i class="fa-regular fa-heart"></i></a></li>
+                <li><a  href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Kasse</h1>
+        
+        <section>
+            <h2>1.SHOPPINGBAGEN DIN</h2>
+            
+            <aside id="shoppingbag">
+                <figure>
+                    <picture>
+                        
+                        <img src="https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg" alt="" class="image">
+                    </picture>
+                </figure>
+                <aside>
+                    <h3><b>PRODUCT NAME</b></h3>
+                    <p>Kr 1999</p>
+                    <p>Farge: tawny</p>
+                </aside>
+    
+                <figure>
+                    <picture>
+                        
+                        <img src="https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg" alt="" class="image">
+                    </picture>
+                </figure>
+                <aside>
+                    <h3><b>PRODUCT NAME</b></h3>
+                    <p>Kr 1999</p>
+                    <p>Farge: tawny</p>
+                </aside>
+    
+                <figure>
+                    <picture>
+                        
+                        <img src="https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg" alt="" class="image">
+                    </picture>
+                </figure>
+                <aside>
+                    <h3><b>PRODUCT NAME</b></h3>
+                    <p>Kr 1999</p>
+                    <p>Farge: tawny</p>
+                </aside>
+    
+                <figure>
+                    <picture>
+                        
+                        <img src="https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg" alt="" class="image">
+                    </picture>
+                </figure>
+                <aside>
+                    <h3><b>PRODUCT NAME</b></h3>
+                    <p>Kr 1999</p>
+                    <p>Farge: tawny</p>
+                </aside>
+            </aside>
+
+        </section>
+        <section id="dineopplys">
+            <h2>2.DINE OPPLYSNINGER</h2>
+            <label id="leveringsadresse">
+                Leveringsaddresse
+            </label>
+            <form id="form">
+                
+                <aside class="cnteo">
+                    <label>
+                        <b>Fornavn</b>
+                        <input type="text" placeholder="Nora*" required class="sb">
+    
+                    </label>
+                    <label>
+                        <b>Etternavn</b>
+                        <input type="text" placeholder="Nordman*" required class="sb">
+    
+                    </label>
+                </aside>
+                <label>
+                    <b>Gateadresse</b>
+                    <input type="text" placeholder="BRA veien 4*" required class="sbg">
+
+                </label>
+                <aside class="cnteo">
+                    <label>
+                        <b>Postnummer</b>
+                        <input type="number" placeholder="1752*" required class="sb">
+                    </label>
+                    <label>
+                        <b>Poststed</b>
+                        <input type="text" placeholder="Halden*" required class="sb">
+                    </label>
+                </aside>
+                
+                <input type="submit" value="Lagre" id="lagrebutton">
+                <input type="reset" value="Avbryt" id="avbrytbuton">
+                
+            </form>
+
+        </section>
+
+        <section>
+            <h2>3.LEVERING</h2>
+            <b>LEVERINGSVALG</b>
+            <form class="leveringform">
+                <label class="borderlevering">
+                    <input type="radio" name="choice" value="Ekspress Hjemlevering" >
+                    <b> Ekspress Hjemlevering</b><br> 3-4 Virkedager
+                </label><br>
+                <label class="borderlevering">
+                    <input type="radio" name="choice" value="Ekspress Pakke til utleveringssted">
+                    <b>Ekspress Pakke til utleveringssted</b><br>1-3 Virkedager 
+                </label><br>
+                <label class="borderlevering">
+                    <input type="radio" name="choice" value="Standard Hjemlevering">
+                    <b>Standard Hjemlevering</b><br>5-8 Virkedager
+                </label>
+            </form>
+        
+        </section>
+        
+        <section id="betaling">
+            <h2>2.Betaling</h2>
+            <h3><b>BETAL MED KORT</b></h3>
+            <form class="bform">
+                <label class="kb">
+                    Kortnummer
+                    <input type="number" placeholder="342342****4435" required class="sbg">
+
+                </label>
+                <aside class="cnteo">
+                    <label class="kb">
+                        Utløpsdato
+                        <input type="date" required class="sb">
+                    </label>
+                    <label class="kb">
+                        CVC/CVV 
+                        <input type="tel" pattern="[0-9]{3,6}" placeholder="CVC/CVV" required class="sb">
+                        
+                    </label>
+                </aside>
+                <label class="pd">
+                    Å betale inkl.mva.<br>
+                    <span id="fontpris"><b>1 199 kr</b></span>
+                    <br><input type="submit" value="Fullfør kjøp" id="blackbut"><br>
+                    <br>Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige.
+                    Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholde dersom det foreligger
+                    uriktige eller ufullstendige opplysninger.<br> 
+                </label>
+                
+               
+                
+                
+                <label class="pdd">
+                    <input type="checkbox">
+                    Ja takk! Send nyhetsbrev til meg.
+                </label>
+                <label class="pdd">
+                    <input type="checkbox">
+                    Jeg ønsker å motta tekstmeldinger med tilbud og nyheter. 
+    
+                </label>
+
+            </form>
+        </section>
+    </main>
+   
+    <footer>
+            <ul>
+                <li><a  class="logo" href="index.html">Logo</a></li>
+    
+            </ul>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    
+        <div class="grid-footer">
+            
+            
+    
+            <section id="kontakktinfo">
+                <h2>KONTAKT</h2>
+                 <ul>
+                    <li><i class="fa-solid fa-location-dot"></i><b>Adresse:</b> B R A Veien 4, 1757 Halden</li>
+                    <li><i class="fa-solid fa-phone"></i><b>Telefon:</b> 12 34 56 00</li>
+                    <li><i class="fa-solid fa-envelope"></i><b>E-post:</b> post@post.no</li> 
+                    <li><i class="fa-solid fa-clock"></i><b>Åpningstider:</b>Stenger 19:00</li>
+                 </ul>
+                </section>
+            <section>
+                <h2>SNARVEIER</h2>
+                <ul class="snarveier">
+                    <li><a href="index.html#vmpopprodukt">Produkter</a></li>
+                    <li><a href="index.html#vmpkategori">Kategorier</a></li>
+                    <li><a href="index.html#kontakktinfo">Kontakt Oss</a></li>
+                </ul>
+               
+            </section>
+                 <section>
+                    <h2>SOSIALE MEDIER</h2>
+                    <ul class="socialmediaicons">
+                        <li><a href="index.html"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="index.html"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="index.html"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="index.html"><i class="fa-brands fa-square-pinterest"></i></a></li>
+                    </ul>
+                </section>
+        </div>
+    </footer>
+        
+        
+
+</body>
+</html>
